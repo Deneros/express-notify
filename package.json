@@ -1,0 +1,28 @@
+{
+  "name": "firmadoc-notify",
+  "version": "1.0.0",
+  "description": "email notifications for firmadoc",
+  "main": "app.js",
+  "scripts": {
+    "test": "na"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deneros/express-notify.git"
+  },
+  "keywords": [
+    "cron",
+    "job"
+  ],
+  "author": "acris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deneros/express-notify/issues"
+  },
+  "homepage": "https://github.com/Deneros/express-notify#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.2"
+  }
+}
