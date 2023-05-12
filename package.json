@@ -4,6 +4,7 @@
   "description": "email notifications for firmadoc",
   "main": "app.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "na"
   },
   "repository": {
@@ -21,7 +22,9 @@
   },
   "homepage": "https://github.com/Deneros/express-notify#readme",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "mysql": "^2.18.1",
     "node-cron": "^3.0.2",
     "nodemailer": "^6.9.2"
   }
