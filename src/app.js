@@ -3,11 +3,15 @@ const express = require('express');
 const reminderService = require('./services/reminder');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port =  3000;
 
-// Iniciar el servicio de recordatorios.
+app.get('/', (req, res) => {
+  res.send('¡Hola Mundo!');
+});
+
 reminderService.start();
 
-app.listen(port, () => {
+
+app.listen(port, '0.0.0.0', () => {
   console.log(`La aplicación está escuchando en http://localhost:${port}`);
 });
