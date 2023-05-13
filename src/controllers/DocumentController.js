@@ -20,8 +20,7 @@ const getPendingDocuments = (callback) => {
       usuario.usu_nombre,
       usuario.usu_apelli,
       documento.ultimo_recordatorio,
-      documento.cantidad_recordatorios,
-      documento.frecuencia_recordatorio
+      documento.cantidad_recordatorios
     FROM 
       detalledocumento
     JOIN 
